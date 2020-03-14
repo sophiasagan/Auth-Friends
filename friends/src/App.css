@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+
+}
+
+.formandbutton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 375px;
+}
+
+.publicContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  height: 40em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c3c8ed;
+  margin: 10em;
+
+
+}
+
+
+
+.friendList {
+
+  border: 1px solid darkgray;
+  display: flex;
+  width: 30em;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin: 1px auto;
+  /* align-items: center; */
+  padding: 5px;
+  /* background: rgb(76, 76, 223); */
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+
+
+
+body::after {
+  content: "";
+  background: url(Friends-s9.jpg);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+
+}
